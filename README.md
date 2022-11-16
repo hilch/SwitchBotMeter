@@ -2,7 +2,8 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 # SwitchBotMeter
-Read SwitchBot Thermometer Hygrometer Indoor with Python without cloud or hub or app
+Read SwitchBot Thermometer Hygrometer Indoor with Python without cloud or hub or app.
+I use this for connect SwitchBot sensors to Domoticz / mosquitto via MQTT.
 
 ## Device
 
@@ -23,6 +24,12 @@ Inspired by [sbm2web.py by Thomas Rudolph](https://cc2.tv/halde/sbm2web.pyskript
 ## Preparation
 
 'pip install bleak'
+'pip install paho-mqtt' (for SwitchBotMQTT.py only)
+
+## usage
+
+SwitchBot.py -> console output
+SwitchBotMQTT.py -> Domoticz (MQTT) connector
 
 
 
