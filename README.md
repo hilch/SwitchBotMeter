@@ -23,13 +23,15 @@ Inspired by [sbm2web.py by Thomas Rudolph](https://cc2.tv/halde/sbm2web.pyskript
 
 ## Preparation
 
-'pip install bleak'
-'pip install paho-mqtt' (for SwitchBotMQTT.py only)
+ `pip install bleak`
+ 
+`pip install paho-mqtt` (for SwitchBotMQTT.py only)
 
-## usage
+## Usage
 
-SwitchBot.py -> console output
-SwitchBotMQTT.py -> Domoticz (MQTT) connector
+start `SwitchBot.py` -> console output
+
+start `SwitchBotMQTT.py` -> Domoticz (MQTT) connector
 
 
 
