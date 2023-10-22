@@ -50,7 +50,7 @@ class Scanner():
                 self.__batt = data[2] & 0b01111111  
                 # Fahrenheit ?
                 if self.__unit == 'F':
-                    self._temp = self.__celsius2fahrenheit(self._temp)
+                    self.__temp = self.__celsius2fahrenheit(self.__temp)
                 # dew point in degree
                 # https://en.wikipedia.org/wiki/Dew_point
                 a = 6.1121 # millibars
